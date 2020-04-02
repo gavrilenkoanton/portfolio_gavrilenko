@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio_gavrilenko/static/css/main.287ccd78.chunk.css",
+    "main.js": "/portfolio_gavrilenko/static/js/main.39d29b42.chunk.js",
+    "main.js.map": "/portfolio_gavrilenko/static/js/main.39d29b42.chunk.js.map",
+    "runtime-main.js": "/portfolio_gavrilenko/static/js/runtime-main.d1f05778.js",
+    "runtime-main.js.map": "/portfolio_gavrilenko/static/js/runtime-main.d1f05778.js.map",
+    "static/js/2.7d7e3c00.chunk.js": "/portfolio_gavrilenko/static/js/2.7d7e3c00.chunk.js",
+    "static/js/2.7d7e3c00.chunk.js.map": "/portfolio_gavrilenko/static/js/2.7d7e3c00.chunk.js.map",
+    "index.html": "/portfolio_gavrilenko/index.html",
+    "precache-manifest.660c93274293f915a29fe974e16f054e.js": "/portfolio_gavrilenko/precache-manifest.660c93274293f915a29fe974e16f054e.js",
+    "service-worker.js": "/portfolio_gavrilenko/service-worker.js",
+    "static/css/main.287ccd78.chunk.css.map": "/portfolio_gavrilenko/static/css/main.287ccd78.chunk.css.map",
+    "static/js/2.7d7e3c00.chunk.js.LICENSE.txt": "/portfolio_gavrilenko/static/js/2.7d7e3c00.chunk.js.LICENSE.txt",
+    "static/media/ContentPhoto.module.css": "/portfolio_gavrilenko/static/media/architecture_buildings_city_flowers_lamppost_landscape_light_locomotive-1542845.15a823ef.jpg",
+    "static/media/css.svg": "/portfolio_gavrilenko/static/media/css.f1b60b26.svg",
+    "static/media/github.svg": "/portfolio_gavrilenko/static/media/github.db4608f3.svg",
+    "static/media/html-5.svg": "/portfolio_gavrilenko/static/media/html-5.5849bb0d.svg",
+    "static/media/instagram.svg": "/portfolio_gavrilenko/static/media/instagram.d35e4a40.svg",
+    "static/media/javascript.svg": "/portfolio_gavrilenko/static/media/javascript.6398b943.svg",
+    "static/media/linkedin.svg": "/portfolio_gavrilenko/static/media/linkedin.a4bdc429.svg",
+    "static/media/react.svg": "/portfolio_gavrilenko/static/media/react.51eaddc9.svg",
+    "static/media/redux.svg": "/portfolio_gavrilenko/static/media/redux.80dc6d19.svg",
+    "static/media/telegram.svg": "/portfolio_gavrilenko/static/media/telegram.485ad15c.svg",
+    "static/media/typescript.svg": "/portfolio_gavrilenko/static/media/typescript.11d7ab9a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1f05778.js",
+    "static/js/2.7d7e3c00.chunk.js",
+    "static/css/main.287ccd78.chunk.css",
+    "static/js/main.39d29b42.chunk.js"
+  ]
+}
