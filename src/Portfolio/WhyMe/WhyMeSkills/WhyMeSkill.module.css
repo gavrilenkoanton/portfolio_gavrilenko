@@ -1,0 +1,37 @@
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+.skillWrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.skill{
+    border-bottom: 1px solid;
+
+}
+.descriptionWrapper{
+    width: 60%;
+}
+.description{
+    line-height: 1.5;
+}
+@media screen and (max-width: 400px){
+    .skills{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .skillWrapper{
+        margin: 15px 0;
+        width: 40%;
+    }
+    .descriptionWrapper{
+        width: 90%;
+    }
+}

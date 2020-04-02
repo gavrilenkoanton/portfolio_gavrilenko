@@ -1,0 +1,109 @@
+.photo{
+    display: flex;
+    height: 100vh;
+    background: url("./../images/architecture_buildings_city_flowers_lamppost_landscape_light_locomotive-1542845.jpg");
+    z-index: 0;
+    /*background: radial-gradient(at center, rgba(0,0,0,0), rgba(0,0,0,0.9));*/
+}
+.photo2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    /*background: rgba(68, 87, 130, 0.3);*/
+    background: rgba(0, 0, 0, 0.3);
+}
+.photo2::after{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    background: url("./../images/pattern.png");
+    z-index: 1;
+    opacity: 0.3;
+}
+.photo3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+
+.button{
+    background-color: #444444;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 4px;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button button{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #417487;
+    background-color: #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #417487;
+    cursor:pointer;
+    outline: none;
+}
+.button button:hover {
+    border: 1px solid #417487;
+    background-color: #353535;
+    transition: 0.9s;
+}
+.socialLinksBlock{
+    background-color: #414141;
+    width: 200px;
+    height: 50px;
+    /*border: 1px solid;*/
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialLinksBlock a img{
+    height: 30px;
+    width: 30px;
+}
+.myName{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    font-size: 70px;
+}
+.photo3::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 170px;
+    width: 4px;
+    background-color: #417487;
+    content: "";
+    display: block;
+    border: none;
+}
+.photo3::before{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 170px;
+    width: 4px;
+    background-color: #417487;
+    content: "";
+    display: block;
+    border: none;
+}

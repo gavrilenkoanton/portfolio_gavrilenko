@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.separator{
+    align-self: flex-start;
+    margin: 70px 0 0 0;
+}
+.header{
+    align-self: flex-start;
+}
+.projectsGrid{
+    margin: 20px 0;
+    width: 100%;
+    height: 500px;
+    display: grid;
+grid-template-areas:
+"x y"
+"x y"
+"x y"
+"q y"
+"q s"
+"r s"
+"r s";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr) ;
+    grid-gap: 10px;
+
+}
+.projectOne{
+    grid-area: x;
+    border: 1px solid;
+}
+.projectTwo{
+    grid-area: y;
+    border: 1px solid;
+}
+.projectThree{
+    grid-area: q;
+    border: 1px solid;
+}
+.projectFour{
+    grid-area: s;
+    border: 1px solid;
+}
+.projectFive{
+    grid-area: r;
+    border: 1px solid;
+}

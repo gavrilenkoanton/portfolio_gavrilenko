@@ -1,0 +1,33 @@
+.mainWrapper{
+    display: grid;
+    grid-template-areas: "c p";
+    grid-template-columns: 8fr 8fr;
+}
+.contentPhoto{
+    /*display: block;*/
+    grid-area: c;
+    height: 100vh;
+    /*border: 1px solid;*/
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+    position: fixed;
+    width: 50%;
+    top: 0;
+    left: 0;
+}
+.portfolio{
+    grid-area: p;
+    /*border: 1px solid;*/
+    /*background-color: lightblue;*/
+
+}
+
+@media screen and (max-width: 820px){
+    .contentPhoto{
+        display: none;
+    }
+    .portfolio{
+        width: 100vw;
+    }
+}

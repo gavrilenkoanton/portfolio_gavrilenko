@@ -1,0 +1,89 @@
+.btn{
+    margin-right: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+    min-width: 150px;
+    height: 66px;
+    border: 1px solid;
+    border-color: #417487;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    line-height: 64px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        margin-right: 20px;
+        margin-top: 10px;
+        position: relative;
+        z-index: 1;
+        min-width: 150px;
+        height: 66px;
+        border: 1px solid;
+        /*border-color: #f3c26b;*/
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 12px;
+        letter-spacing: 1px;
+        border-radius: 0;
+        line-height: 64px;
+        padding: 0;
+        background-color: transparent;
+    }
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #2f2f2f;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.btn.btnPrimary {
+    color: #ffffff;
+    z-index: 10;
+    /*border-color: #f3c26b;*/
+}
+
+.btn.btnPrimary::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid #417487;
+    /*border-color: #f3c26b;*/
+    right: -6px;
+    bottom: -6px;
+    content: '';
+    z-index: -100;
+    transition: 1s;
+}
+
+.btn.btnPrimary:hover,
+.btn.btnPrimary:focus {
+    background-color: #417487;
+    color: #000;
+}
+
+.btn.btnPrimary:hover:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #417487;
+    right: 6px;
+    bottom: 6px;
+    content: '';
+    z-index: -100;
+    transition: 1s;
+}

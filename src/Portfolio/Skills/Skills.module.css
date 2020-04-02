@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.separator{
+    align-self: flex-start;
+    margin: 70px 0 0 0;
+}
+.header{
+    align-self: flex-start;
+}
+
+.skillsNav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text{
+    margin: 50px 0;
+}

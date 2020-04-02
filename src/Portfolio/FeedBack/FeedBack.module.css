@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.separator{
+    align-self: flex-start;
+    margin: 70px 0 0 0;
+}
+.header{
+    align-self: flex-start;
+}
+.text{
+    margin: 20px 0;
+}
+.formSize{
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+.sendData{
+    display: flex;
+    justify-content: space-between;
+    }
+.sendData input{
+    width: 40%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid white;
+  outline: none;
+    padding: 0 15px;
+color: white;
+
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+.messages textarea {
+    margin: 10px 0 0 0;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid white;
+    outline: none;
+    padding: 0 15px;
+    color: white;
+}
+.button{
+    margin: 50px 0 0 0;
+}

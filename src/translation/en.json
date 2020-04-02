@@ -1,0 +1,41 @@
+{
+  "testMessage": "This is test message",
+  "businessCard": "Business Card",
+  "myname": "Hello! I'm Anton Gavrilenko",
+  "aboutMe": "I’m a junior front-end developer, if you find my portfolio, then most likely you need a cool employee in your cool company, so keep my card bro)",
+  "cv": "Download CV",
+  "name": "Name:",
+  "gavrilenko": "Anton Gavrilenko",
+  "secondName": "Anton",
+  "mail": "Email:",
+  "age": "Age:",
+  "phone": "Phone:",
+  "job": "Job:",
+  "from": "From:",
+  "from1": "Minsk, Belarus",
+  "skills": "Skills",
+
+  "projects": "Projects",
+
+  "whyMe": "Why me?",
+  "school": "School",
+  "schoolDescription": "I graduated from the physics and mathematics class of the Gymnasium №5 of Minsk. The school gave me good basic knowledge, including English.",
+  "university": "University",
+  "universityDescription": "I graduated from BNTU with a degree in civil engineering, the university taught me to think constructively and solve any task from an engineering point of view.",
+  "engineer": "Engineer",
+  "engineerDescription": "Получив опыт работы инженером, я научился выполнять поставленные задачи в соответствии с ТЗ и технической документацией.",
+  "businessman": "Own business",
+  "businessmanDescription": "Открыв свою автомойку, на протяжении 2 лет успешной работы, я научился управлять штатом сотрудников в 14 человек, организовывать и делигировать работу, что бы задача была выполнена в срок и качественно",
+  "quest": "Quest",
+  "questDescription": "Открыв в 2014 году свою квест-комнату, я научился нестандартно мыслить и находить несколько решений для, казалось бы, типовой задачи.",
+  "developer": "Developer",
+  "developerDescription": "Прошел курс it-incubator.by, приобрел навыки и создал несколько проектов, представленные в моем резюме.",
+
+  "feedBack": "Feedback",
+  "subject": "Subject:",
+  "message": "Message:",
+
+  "contactMe": "Contact Me",
+
+  "rights": "2020 All rights reserved."
+}

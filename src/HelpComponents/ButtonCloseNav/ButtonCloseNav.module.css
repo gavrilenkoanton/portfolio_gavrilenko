@@ -1,0 +1,38 @@
+.button{
+    height:30px;
+    width: 30px;
+    border: 2px solid #417487;
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+}
+.close {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    background-color: transparent;
+    color: #4aa0b5;
+}
+.close:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: white;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}

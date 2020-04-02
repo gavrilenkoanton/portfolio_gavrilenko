@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+.id{
+    margin: 0 0 0 15px;
+}
+.separator{
+    height: 14px;
+    width: 14px;
+    border: 1px solid #e0e0e0;
+    position: relative;
+}
+.separator::after{
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 1px);
+    display: block;
+    content: "";
+    height: 1px;
+    width: 40px;
+    background: #e0e0e0;
+    transition: 0.3s;
+}
+.theme{
+    font-weight: 500;
+    width: 450px;
+    position: absolute;
+    display: block;
+    left: 150px;
+    font-size: 50px;
+    top: -25px;
+    opacity: 0.02;
+}
+.wrapper:hover .separator{
+    border: 1px solid #417487;
+}
+.wrapper:hover .separator::after{
+    width: 70px;
+    right: 7px;
+    background: #417487;
+}
+.wrapper:hover{
+    color: #417487;
+}

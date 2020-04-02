@@ -1,0 +1,39 @@
+.cardWrapper {
+    width: 100%;
+    border: 1px solid #525252;
+    /*height: 200px;*/
+    font-size: 14px;
+    background-color: #444444;
+}
+
+.cardRow {
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.cardPoint {
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardPoint span {
+    margin: 0 5px 0 0;
+}
+
+.mail {
+    color: #4aa0b5;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 440px) {
+    .cardRow {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        height: 180px;
+    }
+}

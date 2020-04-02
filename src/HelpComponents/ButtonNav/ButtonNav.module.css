@@ -1,0 +1,33 @@
+.button {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #417487;
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    outline: none;
+    cursor: pointer;
+}
+
+.circle {
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    border: 1px solid #417487;
+    background-color: white;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.button :nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.button :nth-child(3) {
+   transition-delay: 0.2s;
+}
+
+button:hover .circle {
+    opacity: 1;
+}
