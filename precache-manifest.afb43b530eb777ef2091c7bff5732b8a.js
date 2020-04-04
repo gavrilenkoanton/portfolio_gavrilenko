@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ee74289b964b3968b5f3373d0c698c7",
+    "revision": "d3aacf9e08705a85889a85b98c03cb33",
     "url": "/portfolio_gavrilenko/index.html"
   },
   {
-    "revision": "24280c31c91a56498ffa",
-    "url": "/portfolio_gavrilenko/static/css/main.287ccd78.chunk.css"
+    "revision": "3219ed52c062be789daf",
+    "url": "/portfolio_gavrilenko/static/css/main.000aa7c7.chunk.css"
   },
   {
     "revision": "de593dd3ad5a7e2e1171",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_gavrilenko/static/js/2.7d7e3c00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24280c31c91a56498ffa",
-    "url": "/portfolio_gavrilenko/static/js/main.39d29b42.chunk.js"
+    "revision": "3219ed52c062be789daf",
+    "url": "/portfolio_gavrilenko/static/js/main.576bbdbf.chunk.js"
   },
   {
     "revision": "565973a9b52a9fc665f2",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "15a823ef6abd9661a0ae1a40767a2010",
     "url": "/portfolio_gavrilenko/static/media/architecture_buildings_city_flowers_lamppost_landscape_light_locomotive-1542845.15a823ef.jpg"
+  },
+  {
+    "revision": "176592a498dae99f49427d510c52061d",
+    "url": "/portfolio_gavrilenko/static/media/calc.176592a4.png"
   },
   {
     "revision": "f1b60b26278b26afeb0522fa84c23677",
@@ -66,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "11d7ab9a723dde7ed1a6f81b1b6b8215",
     "url": "/portfolio_gavrilenko/static/media/typescript.11d7ab9a.svg"
+  },
+  {
+    "revision": "fd52e126ece82cd67b2c17863cf323d0",
+    "url": "/portfolio_gavrilenko/static/media/wild_gunman.fd52e126.jpg"
   }
 ]);
