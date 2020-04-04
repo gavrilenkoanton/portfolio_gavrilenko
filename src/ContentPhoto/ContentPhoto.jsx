@@ -21,10 +21,10 @@ class ContentPhoto extends React.Component {
                         </button>
                     </div>
                     <div className={styles.socialLinksBlock}>
-                        <a href=""><img src={require('./../images/instagram.svg')}/></a>
-                        <a href=""><img src={require('./../images/linkedin.svg')}/></a>
-                        <a href="https://telegram.im/@mr_shkut"><img src={require('./../images/telegram.svg')}/></a>
-                        <a href=""><img src={require('./../images/github.svg')}/></a>
+                        <a href="https://www.instagram.com/gavrilenkoanton/" target="_blank"><img src={require('./../images/instagram.svg')}/></a>
+                        <a href="https://www.linkedin.com/in/gavrilenkoanton" target="_blank"><img src={require('./../images/linkedin.svg')}/></a>
+                        <a href="tg://resolve?domain=gavrilenko_anton" target="_blank"><img src={require('./../images/telegram.svg')}/></a>
+                        <a href="https://github.com/gavrilenkoanton" target="_blank"><img src={require('./../images/github.svg')}/></a>
                     </div>
                     <div
                         className={styles.myName}>{this.props.state.messages[this.props.state.currentLocal].secondName}</div>

@@ -51,7 +51,7 @@
 .btn.btnPrimary {
     color: #ffffff;
     z-index: 10;
-    /*border-color: #f3c26b;*/
+    border-color: #417487;
 }
 
 .btn.btnPrimary::before {
