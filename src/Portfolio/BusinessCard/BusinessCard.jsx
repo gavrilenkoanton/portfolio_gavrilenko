@@ -10,7 +10,7 @@ class BusinessCard extends React.Component {
 
     render() {
         return (
-            <div className={styles.container}>
+            <div className={styles.container} id='item-0'>
                 <div className={styles.businessCardWrapper}>
                     <div className={styles.separator}>
                         <Separator componentName={this.props.state.messages[this.props.state.currentLocal].businessCard}/>

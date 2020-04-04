@@ -6,6 +6,57 @@ import PortfolioLink from "./PortfolioLinks/PortfolioLink";
 
 class Navigation extends React.Component {
 
+    scrollTo = (i) => {
+        let offset = document.getElementById("item-" + i).offsetTop
+        // console.log(offset)
+        let isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor)
+        if (isSafari) {
+            if ((offset - document.body.scrollTop) > 0) {
+                var call = setInterval(function() {
+                    if ((offset - document.body.scrollTop) > 0) {
+                        document.body.scrollTop += 10
+                    } else {
+                        clearInterval(call)
+                    }
+                }, 1)
+            }
+            if ((offset - document.body.scrollTop) < 0) {
+                var call = setInterval(function() {
+                    if ((offset - document.body.scrollTop) < 0) {
+                        document.body.scrollTop -= 10
+                    } else {
+                        clearInterval(call)
+                    }
+                }, 1)
+            }
+        } else {
+            // console.log(document.documentElement.scrollTop)
+            if ((offset - document.documentElement.scrollTop) > 0) {
+
+                var call = setInterval(function() {
+
+                    if ((offset - document.documentElement.scrollTop) > 0) {
+                        document.documentElement.scrollTop += 10
+
+                        //document.body.scrollTop += 10
+                    } else {
+                        clearInterval(call)
+                    }
+                }, 1)
+            }
+            if ((offset - document.documentElement.scrollTop) < 0) {
+                var call = setInterval(function() {
+                    if ((offset - document.documentElement.scrollTop) < 0) {
+                        document.documentElement.scrollTop -= 10
+                        //document.body.scrollTop += 10
+                    } else {
+                        clearInterval(call)
+                    }
+                }, 1)
+            }
+        }
+
+    };
 
     render() {
         // debugger
@@ -17,11 +68,11 @@ class Navigation extends React.Component {
                         <ButtonCloseNav/>
                     </div>
                     <div className={styles.linksBox}>
-                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].businessCard}/>
-                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].projects}/>
-                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].whyMe}/>
-                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].feedBack}/>
-                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].contactMe}/>
+                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].businessCard} scroll={()=>this.scrollTo(0)}/>
+                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].skills} scroll={()=>this.scrollTo(1)}/>
+                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].projects} scroll={()=>this.scrollTo(2)}/>
+                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].whyMe}  scroll={()=>this.scrollTo(3)}/>
+                        <PortfolioLink nameOfLink={this.props.state.messages[this.props.state.currentLocal].feedBack} scroll={()=>this.scrollTo(4)}/>
                     </div>
                     <div className={styles.rights}>
                         {this.props.state.messages[this.props.state.currentLocal].rights}

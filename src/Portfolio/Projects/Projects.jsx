@@ -8,7 +8,7 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div className={styles.container}>
+            <div className={styles.container} id='item-2'>
                 <div className={styles.wrapper}>
                     <div className={styles.separator}>
                         <Separator componentName={this.props.state.messages[this.props.state.currentLocal].projects}/>
@@ -24,7 +24,9 @@ class Projects extends React.Component {
                     </div>
                     <div className={styles.projectsGrid}>
                         <div className={styles.projectOne}>
-                            Проект1
+                            <a href="https://gavrilenkoanton.github.io/wild_gunman/" target="_blank">
+                                <div className={styles.wildGunman}/>
+                            </a>
                         </div>
                         <div className={styles.projectTwo}>
                             Проект2
@@ -33,7 +35,9 @@ class Projects extends React.Component {
                             Проект3
                         </div>
                         <div className={styles.projectFour}>
-                            Проект4
+                            <a href="https://gavrilenkoanton.github.io/wild_gunman/" target="_blank">
+                                <div className={styles.calculator}/>
+                            </a>
                         </div>
                         <div className={styles.projectFive}>
                             Проект5

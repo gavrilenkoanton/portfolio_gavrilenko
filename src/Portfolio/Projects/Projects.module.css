@@ -35,7 +35,22 @@ grid-template-areas:
 }
 .projectOne{
     grid-area: x;
-    border: 1px solid;
+    border: 1px solid #525252;
+}
+.projectOne:hover{
+    border: 1px solid #c3272c;
+    transition: 1s;
+}
+.wildGunman{
+    height: 100%;
+    filter: grayscale(100%);
+    background: no-repeat  url("./../../images/wild_gunman.jpg") center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.wildGunman:hover{
+    filter: grayscale(0%);
 }
 .projectTwo{
     grid-area: y;
@@ -47,7 +62,22 @@ grid-template-areas:
 }
 .projectFour{
     grid-area: s;
-    border: 1px solid;
+    border: 1px solid #525252;
+}
+.projectFour:hover{
+    border: 1px solid #f99309;
+    transition: 1s;
+}
+.calculator{
+    height: 100%;
+    filter: grayscale(100%);
+    background: no-repeat  url("./../../images/calc.png") center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.calculator:hover{
+    filter: grayscale(0%);
 }
 .projectFive{
     grid-area: r;

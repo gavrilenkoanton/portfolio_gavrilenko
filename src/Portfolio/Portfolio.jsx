@@ -29,7 +29,7 @@ class Portfolio extends React.Component {
                     <Projects state={this.props.state}/>
                     {/*<Slogan/>*/}
                     <WhyMe state={this.props.state}/>
-                    <FeedBack state={this.props.state}/>
+                    <FeedBack state={this.props.state} />
                     <Footer state={this.props.state}/>
                 </div>
             </div>

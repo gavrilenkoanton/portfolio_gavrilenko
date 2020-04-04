@@ -7,7 +7,7 @@ class PortfolioLink extends React.Component {
 
     render() {
         return (
-            <div className={styles.wrapper}>
+            <div className={styles.wrapper} onClick={this.props.scroll}>
                 <div className={styles.separator}>
                     <div className={styles.theme}>
                     </div>

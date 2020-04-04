@@ -15,7 +15,7 @@ class Skills extends React.Component {
 
     render() {
         return (
-            <div className={styles.container}>
+            <div className={styles.container} id='item-1'>
                 <div className={styles.wrapper}>
                     <div className={styles.separator}>
                         <Separator componentName={this.props.state.messages[this.props.state.currentLocal].skills}/>
