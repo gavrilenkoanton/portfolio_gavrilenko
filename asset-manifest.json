@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_gavrilenko/static/css/main.000aa7c7.chunk.css",
-    "main.js": "/portfolio_gavrilenko/static/js/main.576bbdbf.chunk.js",
-    "main.js.map": "/portfolio_gavrilenko/static/js/main.576bbdbf.chunk.js.map",
+    "main.css": "/portfolio_gavrilenko/static/css/main.1f359e37.chunk.css",
+    "main.js": "/portfolio_gavrilenko/static/js/main.120d5458.chunk.js",
+    "main.js.map": "/portfolio_gavrilenko/static/js/main.120d5458.chunk.js.map",
     "runtime-main.js": "/portfolio_gavrilenko/static/js/runtime-main.d1f05778.js",
     "runtime-main.js.map": "/portfolio_gavrilenko/static/js/runtime-main.d1f05778.js.map",
-    "static/js/2.7d7e3c00.chunk.js": "/portfolio_gavrilenko/static/js/2.7d7e3c00.chunk.js",
-    "static/js/2.7d7e3c00.chunk.js.map": "/portfolio_gavrilenko/static/js/2.7d7e3c00.chunk.js.map",
+    "static/js/2.eb2eb8ff.chunk.js": "/portfolio_gavrilenko/static/js/2.eb2eb8ff.chunk.js",
+    "static/js/2.eb2eb8ff.chunk.js.map": "/portfolio_gavrilenko/static/js/2.eb2eb8ff.chunk.js.map",
     "index.html": "/portfolio_gavrilenko/index.html",
-    "precache-manifest.afb43b530eb777ef2091c7bff5732b8a.js": "/portfolio_gavrilenko/precache-manifest.afb43b530eb777ef2091c7bff5732b8a.js",
+    "precache-manifest.b403db7344543f54f82adbea0ab5218e.js": "/portfolio_gavrilenko/precache-manifest.b403db7344543f54f82adbea0ab5218e.js",
     "service-worker.js": "/portfolio_gavrilenko/service-worker.js",
-    "static/css/main.000aa7c7.chunk.css.map": "/portfolio_gavrilenko/static/css/main.000aa7c7.chunk.css.map",
-    "static/js/2.7d7e3c00.chunk.js.LICENSE.txt": "/portfolio_gavrilenko/static/js/2.7d7e3c00.chunk.js.LICENSE.txt",
+    "static/css/main.1f359e37.chunk.css.map": "/portfolio_gavrilenko/static/css/main.1f359e37.chunk.css.map",
+    "static/js/2.eb2eb8ff.chunk.js.LICENSE.txt": "/portfolio_gavrilenko/static/js/2.eb2eb8ff.chunk.js.LICENSE.txt",
     "static/media/ContentPhoto.module.css": "/portfolio_gavrilenko/static/media/architecture_buildings_city_flowers_lamppost_landscape_light_locomotive-1542845.15a823ef.jpg",
     "static/media/Projects.module.css": "/portfolio_gavrilenko/static/media/wild_gunman.fd52e126.jpg",
     "static/media/css.svg": "/portfolio_gavrilenko/static/media/css.f1b60b26.svg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d1f05778.js",
-    "static/js/2.7d7e3c00.chunk.js",
-    "static/css/main.000aa7c7.chunk.css",
-    "static/js/main.576bbdbf.chunk.js"
+    "static/js/2.eb2eb8ff.chunk.js",
+    "static/css/main.1f359e37.chunk.css",
+    "static/js/main.120d5458.chunk.js"
   ]
 }
