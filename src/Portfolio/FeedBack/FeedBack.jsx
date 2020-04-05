@@ -18,9 +18,7 @@ class FeedBack extends React.Component {
                         <h1>{this.props.state.messages[this.props.state.currentLocal].feedBack}</h1>
                     </div>
                     <div className={styles.text}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad asperiores deserunt dicta,
-                        dignissimos, eos excepturi harum hic natus nostrum perferendis perspiciatis quae quas quibusdam
-                        repellendus sequi sunt ut voluptatum.
+                        {this.props.state.messages[this.props.state.currentLocal].feedBackDescription}
                     </div>
                     <form action="" className={styles.formSize}>
                         <div className={styles.sendData}>

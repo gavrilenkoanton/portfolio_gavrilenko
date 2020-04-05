@@ -43,6 +43,21 @@
     box-sizing: border-box;
     padding: 40px;
 }
+.socialLinksBlock{
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    /*border: 1px solid;*/
+    /*position: absolute;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialLinksBlock a img{
+    height: 20px;
+    width: 20px;
+}
 .rights{
     font-size: 12px;
 }

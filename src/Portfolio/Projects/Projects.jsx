@@ -35,7 +35,7 @@ class Projects extends React.Component {
                             Проект3
                         </div>
                         <div className={styles.projectFour}>
-                            <a href="https://gavrilenkoanton.github.io/wild_gunman/" target="_blank">
+                            <a href="https://gavrilenkoanton.github.io/calculator/" target="_blank">
                                 <div className={styles.calculator}/>
                             </a>
                         </div>
