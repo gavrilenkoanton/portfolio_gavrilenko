@@ -18,7 +18,7 @@ class Skill extends React.Component {
                 </div>
                 <div className={styles.rightPart}>
                     <span className={styles.title}>{this.props.title}</span>
-                    <span>balbal abllal a alfbldf</span>
+                    <span>{this.props.description}</span>
                 </div>
             </div>
         );

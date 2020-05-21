@@ -24,13 +24,10 @@ class Skills extends React.Component {
                         <h1>{this.props.state.messages[this.props.state.currentLocal].skills}</h1>
                     </div>
                     <div className={styles.text}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quae quam ullam.
-                        Consequuntur
-                        dicta, enim harum labore minus mollitia nesciunt! Aliquid amet asperiores doloremque incidunt
-                        inventore, laudantium quas quasi vitae!
+                        {this.props.state.messages[this.props.state.currentLocal].skillsDescription}
                     </div>
                     <div className={styles.skillsNav}>
-                        <Skill picture={html} id={"01"} title={"HTML"}/>
+                        <Skill picture={html} id={"01"} title={"HTML"} description={"HTML IS COOL"}/>
                         <Skill picture={css} id={"02"} title={"CSS"}/>
                         <Skill picture={tScript} id={"03"} title={"TypeScript"}/>
                         <Skill picture={js} id={"04"} title={"JavaScript"}/>

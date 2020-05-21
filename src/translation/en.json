@@ -14,6 +14,7 @@
   "from": "From:",
   "from1": "Minsk, Belarus",
   "skills": "Skills",
+  "skillsDescription": "During my education I studied and began to put into practice the following technologies:",
 
   "projects": "Projects",
 
@@ -23,13 +24,13 @@
   "university": "University",
   "universityDescription": "I graduated from BNTU with a degree in civil engineering, the university taught me to think constructively and solve any task from an engineering point of view.",
   "engineer": "Engineer",
-  "engineerDescription": "Получив опыт работы инженером, я научился выполнять поставленные задачи в соответствии с ТЗ и технической документацией.",
+  "engineerDescription": "Having gained experience as an engineer, I learned to carry out the tasks in accordance with the statement of work and technical documentation.",
   "businessman": "Own business",
-  "businessmanDescription": "Открыв свою автомойку, на протяжении 2 лет успешной работы, я научился управлять штатом сотрудников в 14 человек, организовывать и делигировать работу, что бы задача была выполнена в срок и качественно",
+  "businessmanDescription": "Having opened my own car wash, for 2 years of successful work, I learned how to manage a staff of 14 people, organize and delegate work, so that any task is completed on time and efficiently.",
   "quest": "Quest",
-  "questDescription": "Открыв в 2014 году свою квест-комнату, я научился нестандартно мыслить и находить несколько решений для, казалось бы, типовой задачи.",
+  "questDescription": "Having opened my own quest-room in 2014, I learned to think outside the box and find several solutions for a seemingly basic task.",
   "developer": "Developer",
-  "developerDescription": "Прошел курс it-incubator.by, приобрел навыки и создал несколько проектов, представленные в моем резюме.",
+  "developerDescription": "I took the course of it-incubator.by, acquired skills and created several projects presented in my portfolio.",
 
   "feedBack": "Feedback",
   "feedBackDescription": "If you want to contact me, my contacts can be found above or use the feedback form.",
