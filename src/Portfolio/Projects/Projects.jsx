@@ -26,7 +26,7 @@ class Projects extends React.Component {
                             </a>
                         </div>
                         <div className={styles.projectTwo}>
-                            <a href="https://gavrilenkoanton.github.io/dialogs" target="_blank">
+                            <a href="https://gavrilenkoanton.github.io/social_network/" target="_blank">
                                 <div className={styles.social}/>
                             </a>
                         </div>
