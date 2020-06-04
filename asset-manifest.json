@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio_gavrilenko/static/css/main.4ad728ba.chunk.css",
-    "main.js": "/portfolio_gavrilenko/static/js/main.6bc164ca.chunk.js",
-    "main.js.map": "/portfolio_gavrilenko/static/js/main.6bc164ca.chunk.js.map",
+    "main.js": "/portfolio_gavrilenko/static/js/main.9b2257f8.chunk.js",
+    "main.js.map": "/portfolio_gavrilenko/static/js/main.9b2257f8.chunk.js.map",
     "runtime-main.js": "/portfolio_gavrilenko/static/js/runtime-main.d1f05778.js",
     "runtime-main.js.map": "/portfolio_gavrilenko/static/js/runtime-main.d1f05778.js.map",
     "static/js/2.a410dc92.chunk.js": "/portfolio_gavrilenko/static/js/2.a410dc92.chunk.js",
     "static/js/2.a410dc92.chunk.js.map": "/portfolio_gavrilenko/static/js/2.a410dc92.chunk.js.map",
     "index.html": "/portfolio_gavrilenko/index.html",
-    "precache-manifest.31096a7d74c5a63f2b857f4bd1103091.js": "/portfolio_gavrilenko/precache-manifest.31096a7d74c5a63f2b857f4bd1103091.js",
+    "precache-manifest.497c544093e673dcf40700a3a390e307.js": "/portfolio_gavrilenko/precache-manifest.497c544093e673dcf40700a3a390e307.js",
     "service-worker.js": "/portfolio_gavrilenko/service-worker.js",
     "static/css/main.4ad728ba.chunk.css.map": "/portfolio_gavrilenko/static/css/main.4ad728ba.chunk.css.map",
     "static/js/2.a410dc92.chunk.js.LICENSE.txt": "/portfolio_gavrilenko/static/js/2.a410dc92.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.d1f05778.js",
     "static/js/2.a410dc92.chunk.js",
     "static/css/main.4ad728ba.chunk.css",
-    "static/js/main.6bc164ca.chunk.js"
+    "static/js/main.9b2257f8.chunk.js"
   ]
 }
