@@ -1,6 +1,7 @@
 .container{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .wrapper{
     width: 80%;
@@ -26,8 +27,8 @@ grid-template-areas:
 "x y"
 "q y"
 "q s"
-"r s"
-"r s";
+"q s"
+"q s";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(7, 1fr) ;
     grid-gap: 10px;
@@ -56,9 +57,37 @@ grid-template-areas:
     grid-area: y;
     border: 1px solid;
 }
+.projectTwo:hover{
+    border: 1px solid #e00d25;
+    transition: 1s;
+}
+.social{
+    height: 100%;
+    filter: grayscale(100%);
+    background: no-repeat  url("./../../images/social.png") center;
+    background-size: cover;
+    transition: 1s;
+}
+.social:hover{
+    filter: grayscale(0%);
+}
 .projectThree{
     grid-area: q;
     border: 1px solid;
+}
+.projectThree:hover{
+    border: 1px solid #1f53d9;
+    transition: 1s;
+}
+.google{
+    height: 100%;
+    filter: grayscale(100%);
+    background: no-repeat  url("./../../images/google.png") center;
+    background-size: cover;
+    transition: 1s;
+}
+.google:hover{
+    filter: grayscale(0%);
 }
 .projectFour{
     grid-area: s;
@@ -79,7 +108,7 @@ grid-template-areas:
 .calculator:hover{
     filter: grayscale(0%);
 }
-.projectFive{
-    grid-area: r;
-    border: 1px solid;
-}
+/*.projectFive{*/
+/*    grid-area: r;*/
+/*    border: 1px solid;*/
+/*}*/

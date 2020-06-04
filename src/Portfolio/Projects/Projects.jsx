@@ -17,10 +17,7 @@ class Projects extends React.Component {
                         <h1>{this.props.state.messages[this.props.state.currentLocal].projects}</h1>
                     </div>
                     <div className={styles.text}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quae quam ullam.
-                        Consequuntur
-                        dicta, enim harum labore minus mollitia nesciunt! Aliquid amet asperiores doloremque incidunt
-                        inventore, laudantium quas quasi vitae!
+                        {this.props.state.messages[this.props.state.currentLocal].projectsDescription}
                     </div>
                     <div className={styles.projectsGrid}>
                         <div className={styles.projectOne}>
@@ -29,19 +26,23 @@ class Projects extends React.Component {
                             </a>
                         </div>
                         <div className={styles.projectTwo}>
-                            Проект2
+                            <a href="https://gavrilenkoanton.github.io/dialogs" target="_blank">
+                                <div className={styles.social}/>
+                            </a>
                         </div>
                         <div className={styles.projectThree}>
-                            Проект3
+                            <a href="https://gavrilenkoanton.github.io/start_google_page/" target="_blank">
+                                <div className={styles.google}/>
+                            </a>
                         </div>
                         <div className={styles.projectFour}>
                             <a href="https://gavrilenkoanton.github.io/calculator/" target="_blank">
                                 <div className={styles.calculator}/>
                             </a>
                         </div>
-                        <div className={styles.projectFive}>
-                            Проект5
-                        </div>
+                        {/*<div className={styles.projectFive}>*/}
+                        {/*    Проект5*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
