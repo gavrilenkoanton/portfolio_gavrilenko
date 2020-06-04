@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c0dadb226519337361028a8357e336e",
+    "revision": "3dff690680dff3635edadda15ee02e5a",
     "url": "/portfolio_gavrilenko/index.html"
   },
   {
-    "revision": "ac768f305d624554efbb",
-    "url": "/portfolio_gavrilenko/static/css/main.1f359e37.chunk.css"
+    "revision": "c137a4b2ae492b08acd7",
+    "url": "/portfolio_gavrilenko/static/css/main.4ad728ba.chunk.css"
   },
   {
-    "revision": "3e47fdae01e672a8753a",
-    "url": "/portfolio_gavrilenko/static/js/2.eb2eb8ff.chunk.js"
+    "revision": "9438367ad43f2198d1fc",
+    "url": "/portfolio_gavrilenko/static/js/2.a410dc92.chunk.js"
   },
   {
     "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/portfolio_gavrilenko/static/js/2.eb2eb8ff.chunk.js.LICENSE.txt"
+    "url": "/portfolio_gavrilenko/static/js/2.a410dc92.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac768f305d624554efbb",
-    "url": "/portfolio_gavrilenko/static/js/main.120d5458.chunk.js"
+    "revision": "c137a4b2ae492b08acd7",
+    "url": "/portfolio_gavrilenko/static/js/main.741216e4.chunk.js"
   },
   {
     "revision": "565973a9b52a9fc665f2",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "db4608f307e9921f1ca27617bfea46d7",
     "url": "/portfolio_gavrilenko/static/media/github.db4608f3.svg"
+  },
+  {
+    "revision": "27a1a5b87cbb3483d93a988760386433",
+    "url": "/portfolio_gavrilenko/static/media/google.27a1a5b8.png"
   },
   {
     "revision": "5849bb0d61c2da15b5991dcacafc8e86",
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "80dc6d194ca0e1a876d960ab51becdf2",
     "url": "/portfolio_gavrilenko/static/media/redux.80dc6d19.svg"
+  },
+  {
+    "revision": "eda7eacc5938f2d634e8cb1767ebedb9",
+    "url": "/portfolio_gavrilenko/static/media/social.eda7eacc.png"
   },
   {
     "revision": "485ad15c26e798892943f71306bf11d5",
