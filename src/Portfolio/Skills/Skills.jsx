@@ -27,7 +27,7 @@ class Skills extends React.Component {
                         {this.props.state.messages[this.props.state.currentLocal].skillsDescription}
                     </div>
                     <div className={styles.skillsNav}>
-                        <Skill picture={html} id={"01"} title={"HTML"} description={"HTML IS COOL"}/>
+                        <Skill picture={html} id={"01"} title={"HTML"}/>
                         <Skill picture={css} id={"02"} title={"CSS"}/>
                         <Skill picture={tScript} id={"03"} title={"TypeScript"}/>
                         <Skill picture={js} id={"04"} title={"JavaScript"}/>
