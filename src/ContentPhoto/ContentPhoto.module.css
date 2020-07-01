@@ -3,6 +3,7 @@
     height: 100vh;
     background: url("./../images/architecture_buildings_city_flowers_lamppost_landscape_light_locomotive-1542845.jpg");
     z-index: 0;
+    background-size: cover;
     /*background: radial-gradient(at center, rgba(0,0,0,0), rgba(0,0,0,0.9));*/
 }
 .photo2{
