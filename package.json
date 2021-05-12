@@ -13,7 +13,7 @@
     "express": "^4.17.1",
     "gh-pages": "^2.2.0",
     "i18n-react": "^0.7.0",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-i18next": "^11.3.3",
